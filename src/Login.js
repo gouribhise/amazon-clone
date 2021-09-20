@@ -45,7 +45,7 @@ function Login() {
                     <input type="password" value={password}
                         onChange={e=>setPassword(e.target.value)}/>
                   
-                    <button type="submit" onClick={signIn}>Sign In</button>
+                    <button className="login__signInButton" type="submit" onClick={signIn}>Sign In</button>
                 </form>
                 <p> 
                     By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
